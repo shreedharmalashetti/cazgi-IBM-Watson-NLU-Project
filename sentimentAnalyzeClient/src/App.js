@@ -41,7 +41,7 @@ class App extends React.Component {
 
     sendForSentimentAnalysis = () => {
         this.setState({ sentiment: true });
-        let url = "http://localhost:8080";
+        let url = ".";
         let mode = this.state.mode
         url = url + "/" + mode + "/sentiment?" + mode + "=" + document.getElementById("textinput").value;
 
