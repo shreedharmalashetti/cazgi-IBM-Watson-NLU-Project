@@ -1,5 +1,10 @@
 # Byte-compiled / optimized / DLL files
 
+sentimentAnalyzeServer/node_modules
+sentimentAnalyzeServer/.env
+
+sentimentAnalyzeClient/node_modules
+
 .vscode
 
 __pycache__/
